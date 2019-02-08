@@ -17,9 +17,8 @@ class comp():
 		notDiag = A[i][x]
 		if(Diag != 0 and notDiag != 0):
 			div = notDiag / Diag
-			if(div > 0 ):
-				sign = -1
-			else:
+			sign = -1
+			if(div < 0 ):
 				sign = 1
 			div = abs(div)
 			for b in range(3):
