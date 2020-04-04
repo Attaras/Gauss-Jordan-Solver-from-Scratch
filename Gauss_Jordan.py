@@ -1,5 +1,6 @@
-#This is a Gauss Jordan python implementation, it can be used to find solutions for 3x3 linear transformations or system of equations, i enjoyed coding this.
-#Note that Ax=v, x is the solution we're looking for
+# This is a Gauss Jordan python implementation, it can be used to find solutions for 3x3 linear transformations or system of equations, was revising lin alg and thought it would be entertaining to implement this :D
+# Ax=v, x is the solution we're looking for
+# Code doesn't have proper comments
 A = [[0 for i in range(3)] for j in range(3)]
 v = []
 for i in range(3):
