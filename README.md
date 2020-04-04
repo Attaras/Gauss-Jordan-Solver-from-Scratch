@@ -1,4 +1,4 @@
-# Gauss-Jordan-Solver-from-Scratch
+# A Gauss Jordan Solver Python
 python code that reduces 3x3 matrices to RREF and gives the solution to the system of equations.
   Input A and v, and the code will output the solution, the x vector.
 ## Example Input
